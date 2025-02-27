@@ -1,0 +1,123 @@
+﻿@model TarzViewModel
+@{
+    Layout = "_LayoutBoxContent";
+
+    ViewData["LayoutHeaderTitle"] = "YENİ";
+    ViewData["LayoutHeaderButtonController"] = "Tarz";
+    ViewData["LayoutHeaderButtonAction"] = "Index";
+    ViewData["LayoutHeaderButtonTitle"] = "Geri Dön";
+}
+
+@section LayoutBoxBody
+{
+    @if (!ViewBag.IsAjaxPage)
+    {
+        <form class="row g-3" asp-controller="Tarz" asp-action="Add">
+            <div class="col-md-12">
+                <label asp-for="Ad" class="form-label"></label>
+                <input asp-for="Ad" class="form-control" />
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+            <div class="col-md-12">
+                <label asp-for="Aciklama" class="form-label"></label>
+                <input asp-for="Aciklama" class="form-control" />
+                <span asp-validation-for="Aciklama" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input asp-for="Status" class="form-check-input" value="true">
+                    <label class="form-check-label" asp-for="Status"></label>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="btn btn-success" value="Kaydet" />
+            </div>
+        </form>
+    }
+    else
+    {
+        <div id="cityAddAjaxContainer">
+            <div class="col-md-12">
+                <label asp-for="Ad" class="form-label"></label>
+                <input asp-for="Ad" class="form-control" />
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+            <div class="col-md-12">
+                <label asp-for="Aciklama" class="form-label"></label>
+                <input asp-for="Aciklama" class="form-control" />
+                <span asp-validation-for="Aciklama" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input asp-for="Status" class="form-check-input" value="true">
+                    <label class="form-check-label" asp-for="Status"></label>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-12">
+                <input type="button" id="citySaveButton" class="btn btn-success" value="Kaydet" onclick="OnSubmitAjax();" />
+            </div>
+        </div>
+    }
+
+}
+
+
+@section LayoutBoxScripts
+{
+    <partial name="_ValidationScriptsPartial" />
+
+    @if (ViewBag.IsAjaxPage)
+    {
+        <script type="text/javascript">
+            function OnSubmitAjax() {
+                var tarzAdElement = $("#tarzAddAjaxContainer").find("#Ad");
+                var tarzStatusElement = $("#tarzAddAjaxContainer").find("#Status");
+                var tarzAciklamaElement = $("#tarzAddAjaxContainer").find("#Aciklama");
+
+                var tarzAd = tarzAdElement.val(); 
+                var tarzStatus = false;
+                var tarzAciklama = tarzAciklamaElement.val();
+
+                if (tarzStatusElement.is(":checked")) {
+                    tarzStatus = tarzStatusElement.val() === 'true' ? true : false; 
+                }
+
+                // Yeni Tarz Kayıt edilmesi
+
+                var addTarz = { Ad: tarzAd, Status: tarzStatus, Aciklama: tarzAciklama };
+                var addTarzJson = JSON.stringify(addTarz);
+
+                // console.log(addTarz);
+                // console.log(addTarzJson);
+
+                $.ajax({
+                    url: '@Url.Action("AddAjax", "Tarz")', 
+                    method: "POST", // GET,POST, API => PUT, PATCH, DELETE
+                    data: addTarzJson,
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        $("#newTarzContainer").html(data.Message); 
+                        console.log("İşlem sonucu başarılı");
+                    },
+                    error: function (err) {
+                        console.log("İşlem sonucu hatalı oldu.");
+                        var err = eval("(" + err.responseText + ")");
+                        console.log(err);
+                        console.log(err.Message);
+                        //$("#newTarzContainer").html(err.Message);
+                    },
+                    complete: function () {
+                        console.log("İşlem tamamlandı.");
+                        GetActiveTarzList(); 
+                        $("#newTarzModal").modal("hide"); // newCityModal yerine newTarzModal
+                    }
+                });
+            }
+        </script>
+    }
+    }
+
+    }
+}

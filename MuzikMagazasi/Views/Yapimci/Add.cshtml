@@ -1,0 +1,190 @@
+﻿@model YapimciViewModel
+@{
+    Layout = "_LayoutBoxContent";
+
+    ViewData["LayoutHeaderTitle"] = "YENİ";
+    ViewData["LayoutHeaderButtonController"] = "Yapimci";
+    ViewData["LayoutHeaderButtonAction"] = "Index";
+    ViewData["LayoutHeaderButtonTitle"] = "Geri Dön";
+}
+
+@section LayoutBoxBody
+{
+        @if (!ViewBag.IsAjaxPage)
+    {
+        <form class="row g-3" asp-controller="Yapimci" asp-action="Add">
+            <div class="col-md-12">
+                <label asp-for="Ad" class="form-label"></label>
+                <input asp-for="Ad" class="form-control" />
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+            <div class="col-md-12">
+                <label asp-for="Soyad" class="form-label"></label>
+                <input asp-for="Soyad" class="form-control" />
+                <span asp-validation-for="Soyad" class="text-danger"></span>
+            </div>
+            <div class="col-md-12">
+                <label asp-for="DogumTarihi" class="form-label"></label>
+                <input asp-for="DogumTarihi" class="form-control" />
+                <span asp-validation-for="DogumTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="sahisSirket">Şahıs mı, Şirket mi?</label>
+                <select asp-for="SahismiSirketmi" class="form-control" id="sahisSirket">
+                    <option value="false">Şahıs</option>
+                    <option value="true">Şirket</option>
+                </select>
+                <span asp-validation-for="SahismiSirketmi" class="text-danger"></span>
+            </div>
+
+            <div id="sirketAdiContainer" style="display:none;">
+                <label for="sirketAdi">Şirket Adı:</label>
+                <input type="text" id="sirketAdi" name="SirketAdi" required />
+            </div>
+            <script>
+                document.getElementById("sahisSirket").addEventListener("change", function () {
+                    var sirketAdiContainer = document.getElementById("sirketAdiContainer");
+                    var selectedValue = this.value;
+
+                    if (selectedValue === "true") {
+                        sirketAdiContainer.style.display = "block";
+                        document.getElementById("sirketAdi").setAttribute("required", "required"); // Zorunlu hale getir
+                    } else {
+                        sirketAdiContainer.style.display = "none";
+                        document.getElementById("sirketAdi").removeAttribute("required"); // Zorunluluğu kaldır
+                        document.getElementById("sirketAdi").value = ""; // Alanı temizle
+                    }
+                });
+            </script>
+            <div class="col-12">
+                <div class="form-check">
+                    <input asp-for="Status" class="form-check-input" value="true">
+                    <label class="form-check-label" asp-for="Status"></label>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="btn btn-success" value="Kaydet" />
+            </div>
+        </form>
+    }
+    else
+    {
+        <div class="col-md-12">
+            <label asp-for="Ad" class="form-label"></label>
+            <input asp-for="Ad" class="form-control" />
+            <span asp-validation-for="Ad" class="text-danger"></span>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="Soyad" class="form-label"></label>
+            <input asp-for="Soyad" class="form-control" />
+            <span asp-validation-for="Soyad" class="text-danger"></span>
+        </div>
+        <div class="col-md-12">
+            <label asp-for="DogumTarihi" class="form-label"></label>
+            <input asp-for="DogumTarihi" class="form-control" />
+            <span asp-validation-for="DogumTarihi" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="sahisSirket">Şahıs mı, Şirket mi?</label>
+            <select asp-for="SahismiSirketmi" class="form-control" id="sahisSirket">
+                <option value="false">Şahıs</option>
+                <option value="true">Şirket</option>
+            </select>
+            <span asp-validation-for="SahismiSirketmi" class="text-danger"></span>
+        </div>
+
+        <div id="sirketAdiContainer" style="display:none;">
+            <label for="sirketAdi">Şirket Adı:</label>
+            <input type="text" id="sirketAdi" name="SirketAdi" required />
+        </div>
+        <script>
+            document.getElementById("sahisSirket").addEventListener("change", function () {
+                var sirketAdiContainer = document.getElementById("sirketAdiContainer");
+                var selectedValue = this.value;
+
+                if (selectedValue === "true") {
+                    sirketAdiContainer.style.display = "block";
+                    document.getElementById("sirketAdi").setAttribute("required", "required"); // Zorunlu hale getir
+                } else {
+                    sirketAdiContainer.style.display = "none";
+                    document.getElementById("sirketAdi").removeAttribute("required"); // Zorunluluğu kaldır
+                    document.getElementById("sirketAdi").value = ""; // Alanı temizle
+                }
+            });
+        </script>
+        <div class="col-12">
+            <div class="form-check">
+                <input asp-for="Status" class="form-check-input" value="true">
+                <label class="form-check-label" asp-for="Status"></label>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-12">
+            <input type="submit" class="btn btn-success" value="Kaydet" />
+        </div>
+    }
+
+}
+
+
+
+@section LayoutBoxScripts
+{
+    <partial name="_ValidationScriptsPartial" />
+    @if (!ViewBag.IsAjaxPage)
+    {
+        <script type="text/javascript">
+            function OnSubmitAjax() {
+                var yapimciAdElement = $("#yapimciAddAjaxContainer").find("#Ad");
+                var yapimciSoyadElement = $("#yapimciAddAjaxContainer").find("#Soyad");
+                var yapimciDogumTarihiElement = $("#yapimciAddAjaxContainer").find("#DogumTarihi");
+                var yapimciSahismiSirketmiElement = $("#yapimciAddAjaxContainer").find("#SahismiSirketmi");
+                var yapimciSirketAdiElement = $("#yapimciAddAjaxContainer").find("#SirketAdi");
+                var yapimciStatusElement = $("#yapimciAddAjaxContainer").find("#Status");
+
+                var yapimciAd = yapimciAdElement.val();
+                var yapimciSoyad = yapimciSoyadElement.val();
+                var yapimciDogumTarihi = yapimciDogumTarihiElement.val();
+                var yapimciSahismiSirketmi = yapimciSahismiSirketmiElement.val();
+                var yapimciSirketAdi = yapimciSirketAdiElement.val();
+                var yapimciStatus = false;
+
+                if (yapimciStatusElement.is(":checked")) {
+                    yapimciStatus = yaoStatusElement.val() === 'true' ? true : false;
+                }
+
+                // Yeni Yapimci Kayıt edilmesi
+
+                var addYapimci = { Ad: yapimciAd, Soyad: yapimciSoyad, DogumTarihi: yapimciDogumTarihi, SahismiSirketmi: yapimciSahismiSirketmi, SirketAdi: yapimciSirketAdi, Status: yapimciStatus };
+                var addYapimciJson = JSON.stringify(addYapimci);
+
+                // console.log(addYapimci);
+                // console.log(addYapimciJson);
+
+                $.ajax({
+                    url: '@Url.Action("AddAjax", "Yapimci")',
+                    method: "POST", // GET,POST, API => PUT, PATCH, DELETE
+                    data: addYapimciJson,
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        $("#newYapimciContainer").html(data.Message);
+                        console.log("İşlem sonucu başarılı");
+                    },
+                    error: function (err) {
+                        console.log("İşlem sonucu hatalı oldu.");
+                        var err = eval("(" + err.responseText + ")");
+                        console.log(err);
+                        console.log(err.Message);
+                        //$("#newYapimciContainer").html(err.Message);
+                    },
+                    complete: function () {
+                        console.log("İşlem tamamlandı.");
+                        GetActiveYapimciList();
+                        $("#newYapimciModal").modal("hide"); 
+                    }
+                });
+            }
+        </script>
+    }
+}

@@ -1,0 +1,336 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\controllers\\yapimcicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\controllers\\yapimcicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\context\\entities\\yapimci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\context\\entities\\yapimci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\models\\yapimciviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\models\\yapimciviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\views\\yapimci\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\views\\yapimci\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\views\\tarz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\views\\tarz\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\controllers\\tarzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\controllers\\tarzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\views\\shared\\_layoutboxcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\views\\shared\\_layoutboxcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\models\\sarkilarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\models\\sarkilarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\models\\sarkicilarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\models\\sarkicilarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\controllers\\sarkilarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\controllers\\sarkilarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\profile\\yapimciprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\profile\\yapimciprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|c:\\users\\msi6l62m\\source\\repos\\muzikmagazasi\\muzikmagazasi\\profile\\tarzprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A7A5589-46BE-4BAF-B0B7-D0987A9CC409}|MuzikMagazasi\\MuzikMagazasi.csproj|solutionrelative:muzikmagazasi\\profile\\tarzprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241103182948_modelduzeltme2.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Migrations\\20241103182948_modelduzeltme2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:29:48.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241103182713_modelduzeltme.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Migrations\\20241103182713_modelduzeltme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:27:13.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241103182121_modelduzeltme.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Migrations\\20241103182121_modelduzeltme.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:21:21.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Yapimci\\Add.cshtml",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Views\\Yapimci\\Add.cshtml",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Yapimci\\Add.cshtml",
+              "RelativeToolTip": "MuzikMagazasi\\Views\\Yapimci\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:53:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Yapimci.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Context\\Entities\\Yapimci.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Context\\Entities\\Yapimci.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Context\\Entities\\Yapimci.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Context\\Entities\\Yapimci.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:12:54.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YapimciController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\YapimciController.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Controllers\\YapimciController.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\YapimciController.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Controllers\\YapimciController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAADwvzEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:15:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YapimciViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\YapimciViewModel.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Models\\YapimciViewModel.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\YapimciViewModel.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Models\\YapimciViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T13:53:29.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Program.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Program.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:33:05.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Tarz\\Add.cshtml",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Views\\Tarz\\Add.cshtml",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Tarz\\Add.cshtml",
+              "RelativeToolTip": "MuzikMagazasi\\Views\\Tarz\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:02:55.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MuzikMagazasi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T16:58:41.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TarzController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\TarzController.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Controllers\\TarzController.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\TarzController.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Controllers\\TarzController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:15:09.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutBoxContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Shared\\_LayoutBoxContent.cshtml",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Views\\Shared\\_LayoutBoxContent.cshtml",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Views\\Shared\\_LayoutBoxContent.cshtml",
+              "RelativeToolTip": "MuzikMagazasi\\Views\\Shared\\_LayoutBoxContent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:05:56.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "YapimciProfile.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Profile\\YapimciProfile.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Profile\\YapimciProfile.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Profile\\YapimciProfile.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Profile\\YapimciProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:19:13.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SarkilarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\SarkilarViewModel.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Models\\SarkilarViewModel.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\SarkilarViewModel.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Models\\SarkilarViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:46:51.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SarkicilarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\SarkicilarViewModel.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Models\\SarkicilarViewModel.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Models\\SarkicilarViewModel.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Models\\SarkicilarViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:46:47.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SarkilarController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\SarkilarController.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Controllers\\SarkilarController.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Controllers\\SarkilarController.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Controllers\\SarkilarController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:36:05.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TarzProfile.cs",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Profile\\TarzProfile.cs",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\Profile\\TarzProfile.cs",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\Profile\\TarzProfile.cs",
+              "RelativeToolTip": "MuzikMagazasi\\Profile\\TarzProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T16:20:16.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MuzikMagazasi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\MSI6L62M\\source\\repos\\MuzikMagazasi\\MuzikMagazasi\\appsettings.Development.json",
+              "RelativeToolTip": "MuzikMagazasi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T16:59:50.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

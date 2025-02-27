@@ -1,0 +1,32 @@
+﻿@model TarzViewModel
+@{
+    Layout = "_LayoutBoxContent";
+
+    ViewData["LayoutHeaderTitle"] = "DETAY";
+    ViewData["LayoutHeaderButtonController"] = "Tarz";
+    ViewData["LayoutHeaderButtonAction"] = "Index";
+    ViewData["LayoutHeaderButtonTitle"] = "Geri Dön";
+}
+
+@section LayoutBoxBody
+{
+    <dl class="row">
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Id)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Id)</dd>
+
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Ad)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Ad)</dd>
+
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Aciklama)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Aciklama)</dd>
+
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Status)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Status)</dd>
+
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Created)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Created)</dd>
+
+        <dt class="col-2">@Html.DisplayNameFor(m => m.Updated)</dt>
+        <dd class="col-10">@Html.DisplayTextFor(m => m.Updated)</dd>
+    </dl>
+}

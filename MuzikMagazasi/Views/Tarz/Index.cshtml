@@ -1,0 +1,68 @@
+﻿@model List<TarzViewModel>
+@{
+    Layout = "_LayoutBoxContent";
+    ViewData["LayoutHeaderTitle"] = "Tarzlar - " + ViewData["Time"];
+    ViewData["LayoutHeaderButtonController"] = "Tarz";
+    ViewData["LayoutHeaderButtonAction"] = "Add";
+    ViewData["LayoutHeaderButtonTitle"] = "Yeni";
+}
+
+@section LayoutBoxNotifation
+{
+    @if (TempData.ContainsKey("RecordNotFounded"))
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Kayıt Bulunamadı</strong>
+            <hr />
+            <p>@TempData["RecordNotFounded"]</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+
+@section LayoutBoxBody
+{
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Adı</th>
+                <th scope="col">Durumu</th>
+                <th scope="col">Açıklama</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (TarzViewModel tarz in Model)
+                {
+                    <tr>
+                        <td>@tarz.RowNumber</td>
+                        <td>@tarz.Ad</td>
+                        <td>@tarz.Status</td>
+                        <td>@tarz.Aciklama</td>
+                        <td>
+                            <status status="@tarz.Status" true-text="Aktif" false-text="Pasif"></status>
+                        </td>
+                        <td>
+                            <actions-button aria-label="Tarz işlemleri Düzenle, Detay ve Sil"
+                                            edit-link="@Url.Action("Edit", "Tarz", new { id = tarz.Id})"
+                                            detail-link="@Url.Action("Detail", "Tarz", new { id = tarz.Id})"
+                                            delete-link="@Url.Action("Remove", "Tarz", new { id = tarz.Id})">
+
+                            </actions-button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">
+                        <p class="text-muted text-center">Liste boş</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

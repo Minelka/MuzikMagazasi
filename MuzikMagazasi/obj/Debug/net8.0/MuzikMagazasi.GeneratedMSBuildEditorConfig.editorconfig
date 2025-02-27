@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MuzikMagazasi
+build_property.RootNamespace = MuzikMagazasi
+build_property.ProjectDir = C:\Users\MSI6L62M\source\repos\MuzikMagazasi\MuzikMagazasi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\MSI6L62M\source\repos\MuzikMagazasi\MuzikMagazasi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Shared/_LayoutBoxContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCb3hDb250ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Tarz/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyelxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Tarz/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyelxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Tarz/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyelxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Tarz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyelxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Yapimci/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWFwaW1jaVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Yapimci/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWFwaW1jaVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Yapimci/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWFwaW1jaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Yapimci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWFwaW1jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI6L62M/source/repos/MuzikMagazasi/MuzikMagazasi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b1m3qtfg51
